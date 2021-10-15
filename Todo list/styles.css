@@ -1,0 +1,63 @@
+#container{
+	height: auto;
+	width: auto;
+	max-width: 400px;
+	max-height: 200px;
+	border: solid 2px black;
+	margin: 0 auto;
+	padding: 10px 50px 10px 50px;
+	border-radius: 25px;
+	text-align: center;
+	}	
+		
+p{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 35px;
+	}
+h1{
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	}
+#listArea{
+	margin-top: 10px;
+	outline: none;
+	}
+#subBttn, #clearBttn{
+	margin: 0 auto;
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+	vertical-align: middle;
+	font-size: 15px;
+	cursor: pointer;
+	}
+#userInput{
+	margin: 0;
+	height: 46px;
+	border: 1px solid black;
+	font-size: 20px;
+	text-align: center;
+	}
+.paragraph-styling{
+	margin: 0;
+	cursor: pointer;
+	font-size: 30px;
+	}
+#inst{
+	font-size: 10px;
+	font-family: Helvetica;
+	font-style: italic;
+	}
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: auto;
+	font-size: 10px;
+	text-align: center;
+	background-color: #E7E9EB;
+	}

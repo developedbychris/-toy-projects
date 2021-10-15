@@ -1,0 +1,89 @@
+html{
+    background-color: black;
+}
+body{
+    color: white;
+}
+#container{
+	height: auto;
+	width: auto;
+	max-width: 500px;
+	max-height: 700px;
+	border: solid 2px #0F1B8A;
+	margin: 0 auto;
+	padding: 10px 50px 40px 50px;
+	border-radius: 25px;
+	text-align: center;
+	}	
+
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 70px;
+    margin: 20px 0px 5px 0px;
+}
+h3{
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+    margin: 5px 0px 20px 0px;
+    
+}
+h4{
+    font-family: 'Alfa Slab One';
+    font-size: 40px;
+    margin: 10px 0px 15px 0px;
+    font-weight: lighter;
+}
+
+#area{
+    font-family: 'Alfa Slab One';
+    font-size: 40px;
+    margin: 10px 0px 10px 0px;
+    color: white;
+    text-shadow:1px 1px 1px #6B7FDB, 1px 1px 10px #0F1B8A;
+    
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+#userInput{
+        margin: 0;
+        height: 46px;
+        width: 350px;
+        font-size: 20px;
+        vertical-align: middle;
+        text-align: center;
+        outline:#0F1B8A ;
+        }
+
+#subBttn{
+    margin: 0 auto;
+	height: 50px;
+	width: 50px;
+	border: 1px solid white;
+	vertical-align: middle;
+	font-size: 15px;
+	cursor: pointer;
+	}
+img{
+    size: auto;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 20px 0px 0px 0px;
+}
+footer{
+	color: white;
+    position: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    bottom: 0;
+	height: auto;
+	font-size: 30px;
+	text-align: center;
+	background-color: #0F1B8A;
+    left: 0;
+    width: 100%;
+}
+a{
+    color: white;
+}

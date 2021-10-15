@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+h1, h3{
+    text-align: center;
+    margin: 0 auto;
+    padding: .5rem 0;
+}
+ul{
+    margin: 2rem auto;
+    text-align: center;
+    padding: 0;
+}
+li{
+    margin: 1rem auto;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+a:link{
+    text-decoration: underline;
+}
+
+a:hover{
+    text-decoration: none;
+}
+a{
+    color: white;
+}
