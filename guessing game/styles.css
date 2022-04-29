@@ -1,0 +1,105 @@
+html {
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
+.row {
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  grid-template-columns: auto auto auto;
+  display: grid;
+}
+
+.box {
+  border-radius: 15%;
+  margin: 20px 20px;
+  outline: solid white;
+  width: 120px;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+  font-family: 'Alfa Slab One';
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.box:hover{
+    border-color: #9ecaed;
+    box-shadow: 0 0 50px #9ecaed;
+    outline: none;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Staatliches', sans-serif, cursive;
+    font-size: 50px;
+    margin: 0;
+}
+
+h2{
+  text-align: center;
+  font-family: 'Staatliches', sans-serif, cursive;
+  margin-top: 0;
+}
+
+#results{
+    text-align: center;
+    font-family:'Baloo 2', sans-serif, cursive;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+#guesses, #firstTry, #total, #luck, #correct{
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Baloo 2', sans-serif, cursive;
+    font-size: 25px;
+}
+
+.container{
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+#rButton{
+  font-family:'Baloo 2', sans-serif, cursive;
+  font-size: 25px;
+  padding: 10px 20px;
+  border:solid white 2px ;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+}
+
+#rButton:hover{
+  cursor: pointer;
+  box-shadow: 0 0 20px #9ecaed;
+  outline: none;
+}
+
+
+#firstTry{
+  color: #4200c7;
+}
+
+#correct{
+  color: #00ff26;
+}
+
+#total, #luck{
+  color: #bfbfbf;
+}
