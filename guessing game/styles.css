@@ -15,7 +15,13 @@ body {
   grid-template-columns: auto auto auto;
   display: grid;
 }
-
+button{
+  border: none;
+  padding: 0;
+  background-color: black;
+  color: white;
+  outline: none;
+}
 .box {
   background-color: black;
   color: white;
