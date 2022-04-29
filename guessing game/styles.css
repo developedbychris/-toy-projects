@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 html {
   background-color: black;
 }
@@ -23,13 +26,14 @@ button{
   outline: none;
 }
 .box {
+  position: relative;
   background-color: black;
   color: white;
   border-radius: 15%;
   margin: 20px 20px;
   outline: solid white;
-  width: 120px;
-  height: 100px;
+  width: 2em;
+  height: 2em;
   text-align: center;
   padding-top: 20px;
   font-family: 'Alfa Slab One';
