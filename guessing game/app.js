@@ -47,7 +47,7 @@ document.querySelectorAll('.box').forEach(item =>{
         
         guessCountArea.innerHTML = `Current guesses: ${guessCount}` 
         correctArea.innerHTML = `Correct guesses: ${numRight}`
-        luckArea.innerHTML = `Percentage of correct guesses: ${Math.round((numRight / totGuesses)*100)}%`
+        luckArea.innerHTML = `Percentage of correct guesses: ${Math.round((numRight / totGuesses)*100) / 100}%`
 
 })
 })
