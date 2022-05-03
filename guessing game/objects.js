@@ -47,7 +47,7 @@ const gameWinTimeout = () => {
       box.style.color = "white";
       box.style.outlineColor = "white";
       box.disabled = false;
-      box.style.cursor = "not-allowed";
+      box.style.cursor = "pointer";
     });
   }, 4100);
 };
