@@ -4,7 +4,7 @@ allBoxes.forEach(item =>{
     item.addEventListener('click', e =>{
            
         const userChoice = parseInt(e.target.textContent) 
-        
+        e.target.disabled=true
         totGuesses++
         totGuessesArea.innerHTML = `Total guesses: ${totGuesses}`
 
