@@ -39,6 +39,7 @@ button{
   font-family: 'Alfa Slab One';
   font-size: 45px;
   cursor: pointer;
+  user-select: none;
   
 }
 
@@ -52,6 +53,7 @@ button{
   margin-top: 10px;
   text-align: center;
   width: auto;
+  user-select: none;
 }
 
 h1{
@@ -117,7 +119,7 @@ h2{
     margin: 0 auto;
     text-align: center;
     font-family:'Baloo 2', sans-serif, cursive;
-    font-size: 25px;
+    font-size: 22px;
     user-select: none;
 }
 
@@ -136,7 +138,7 @@ h2{
   border-radius: 5%;
   background-color: black;
   color: white;
-
+  user-select: none;
   margin: 0 auto;
   position: absolute;
   top: 50%;
