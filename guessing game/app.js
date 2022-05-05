@@ -28,7 +28,7 @@ allBoxes.forEach(item =>{
               document.querySelector('#resPrompt').style.color ="white", addPoints() 
         } 
         else if(userChoice !== randNum && triesLeft === 0){
-            guessResults.innerHTML = `Out of tries!<br>
+            guessResults.innerHTML = `Out of tries! You made it to Round ${roundCount}<br>
             The number was: ${randNum}`, gameOver(), roundArea.innerHTML = "GAME OVER!"
             roundArea.style.color="red"
         }
