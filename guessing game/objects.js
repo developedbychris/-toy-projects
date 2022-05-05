@@ -5,12 +5,16 @@ const correctArea = document.querySelector("#correct");
 const totGuessesArea = document.querySelector("#total");
 const luckArea = document.querySelector("#luck");
 const tryArea = document.querySelector("#try");
+const pointsArea = document.querySelector('#points')
 let guessCount = 0;
 let fTry = 0;
 let numRight = 0;
 let totGuesses = 0;
 let triesLeft = 4;
-
+let roundCount = 1;
+let pointsCount = 6;
+let playerPoints = 0;
+let roundArea = document.querySelector('#rounds')
 let randNum = Math.floor(Math.random() * 6) + 1;
 
 document.querySelector("#rButton").addEventListener("click", () => {
@@ -28,7 +32,13 @@ const boxesDisabled = () => {
   });
 };
 
+const addPoints = () =>{
+  playerPoints += pointsCount
+  }
+
 const gameOver = () => {
+  roundArea.innerHTML = "GAME OVER!"
+  roundArea.style.color="red"
   allBoxes.forEach((box) => {
     box.disabled = true;
     box.style.color = "grey";
@@ -41,6 +51,7 @@ const gameWinTimeout = () => {
   setTimeout(() => {
     guessResults.innerHTML = "";
     triesLeft = 4;
+    pointsCount = 6;
     boxesDisabled(false);
     document.querySelector('*').style.cursor= "default"
     allBoxes.forEach((box) => {
